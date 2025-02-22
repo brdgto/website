@@ -381,7 +381,7 @@
           </div>
 
           <a
-            href="https://www.noway-form.com/f/c3058789-bcfd-4d48-9b41-8cad9048f5e1"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd42B_H7NKqFqVnKJal0LnxsNd7MrqWYCPn_zY_nQp34OGzIA/viewform"
             target="_blank"
             class="button martop"
           >
@@ -504,7 +504,7 @@
           </div>
 
           <a
-            href="https://www.noway-form.com/f/25184a13-556f-4a14-bd11-f4edcdca0b27"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSd234TPVBNFxu_XeuzD6bhfV4JlPFSzWQHkkyex3pPBiIQIuA/viewform"
             target="_blank"
             class="button martop"
           >

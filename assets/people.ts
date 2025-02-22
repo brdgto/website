@@ -14,13 +14,6 @@ export const studioMembers: ResidentHomepage = {
       url: 'https://www.instagram.com/ichen2193/',
     },
     {
-      id: 'hmw',
-      name: 'Hand Made Works',
-      description: `Leather artists.`,
-      descriptionJa: `革職人。`,
-      url: 'https://at0.handcrafted.jp/',
-    },
-    {
       id: 'teo',
       name: 'Teo Knives',
       description:
@@ -55,6 +48,13 @@ export const studioMembers: ResidentHomepage = {
   ],
   past: [
     {
+      id: 'hmw',
+      name: 'Hand Made Works',
+      description: `Leather artists.`,
+      descriptionJa: `革職人。`,
+      url: 'https://at0.handcrafted.jp/',
+    },
+    {
       id: 'unnuntei',
       name: 'Unnuntei',
       description: `Photographer and painter unit.`,
@@ -85,6 +85,28 @@ export const studioMembers: ResidentHomepage = {
 
 export const residents: ResidentHomepage = {
   upcoming: [
+    {
+      id: 'jamie',
+      name: 'Jamie Kruse',
+      description: `Artist and professor based in New York and Maine. One half of smudge studio collaborative. Inspired by both ancient and contemporary observations of Earth’s time and place in the cosmos, we stage embodied engagements with the planet’s ever-transforming events and conditions — human and nonhuman.`,
+      descriptionJa: `ニューヨークとメイン州を拠点とするアーティスト兼教授。コラボレーションユニット「smudge studio」のメンバー。写真やパフォーマティブ・リサーチのほか、マルチプル、マイクロ・プロダクションを手がける。古代と現代の視点から、地球の時間や宇宙における位置を観察することで、人間と非人間の視点から、絶えず変容する地球の出来事や環境と直接関わる体験を創り出している。`,
+      url: 'https://www.smudgestudio.org/',
+    },
+    {
+      id: 'elizabeth',
+      name: 'Elizabeth Ellsworth',
+      description: `A multidisciplinary artist collaborating with Jamie Kruse as smudge studio. Her media include letterpress, collage, photography, and built objects. smudge studio’s work focuses on creatively adapting, moment to moment, to the changing planetary conditions we live within.`,
+      descriptionJa: `学際的なアーティストであり、Jamie Kruseとともにsmudge studioとして活動している。彼女のメディアは、活版印刷、コラージュ、写真、立体作品など。smudge studio の作品は、変化し続ける地球環境の中で、瞬間ごとに創造的に適応していくことをテーマとしている。`,
+      url: 'https://www.smudgestudio.org/',
+    },
+    {
+      id: 'arjan',
+      name: 'Arjan Rietveld',
+      description: `Dutch curator, editor and publisher. Following a long-stretched musical journey, Arjan Rietveld develops projects and stories within cultural and societal contexts.`,
+      descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 Arjan Rietveldは、長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
+      url: 'https://studio-rietveld.com/',
+    },
+
     {
       id: 'maciej',
       name: 'Maciej Burdalski',
