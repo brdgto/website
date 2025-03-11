@@ -86,6 +86,13 @@ export const studioMembers: ResidentHomepage = {
 export const residents: ResidentHomepage = {
   upcoming: [
     {
+      id: 'nina',
+      name: 'Nina Fradet',
+      description: `Artist, craftswoman and founder of HINN. Interested for several years in building a relationship between Cabinetmaking and Takezaiku - Japanese bamboo basketry - her research is gradually being refined to find its essence in the exercise of line and the consciousness of gestures to bring it to life.`,
+      descriptionJa: `アーティストであり女性職人、そしてHINNの創設者であるNina Fradetは、協働するクリエイターたちを結びつけ、すべての作品に深く関与している。長年にわたり、キャビネット制作（木工家具）と竹細工（日本の竹かご作り）の関係性に関心を寄せ、線の表現と手の動きに意識を向けながら、その本質を探求し続けている。`,
+      url: 'https://www.hinnstudio.com/',
+    },
+    {
       id: 'jamie',
       name: 'Jamie Kruse',
       description: `Artist and professor based in New York and Maine. One half of smudge studio collaborative. Inspired by both ancient and contemporary observations of Earth’s time and place in the cosmos, we stage embodied engagements with the planet’s ever-transforming events and conditions — human and nonhuman.`,
@@ -106,22 +113,13 @@ export const residents: ResidentHomepage = {
       descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 Arjan Rietveldは、長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
       url: 'https://studio-rietveld.com/',
     },
-
+  ],
+  past: [
     {
       id: 'maciej',
       name: 'Maciej Burdalski',
       description: `Practicing architect with over 13 years of experience from leading design companies in Europe and Asia. Working on large scale mixed use projects. Currently searching for his own design language by exploring complex geometries, watercolor and 3d printing.`,
       descriptionJa: `ヨーロッパやアジアの大手設計会社で13年以上の経験を持つ建築家。大規模な複合施設のプロジェクトに携わる。現在は、自身のデザインスタイルを模索しながら、複雑な形状、水彩画、3Dプリントを探求している。`,
-    },
-  ],
-  past: [
-    {
-      id: 'tsai',
-      name: 'Tsai Shih-Hsiang',
-      description: `Co-founder of the art collective “Hyper Wave" in Taiwan.  
-    Tsai’s works often use video and photography to contemplate the city, landscapes, and the people toiling within them, or to document processes of drifting, shifting, and transcending the identity.`,
-      descriptionJa: `台湾にあるアートコレクティブ「Hyper Wave」の創始者。作品はビデオや写真を使って、都市や風景、その中で働く人々について考えたり、漂流や移動、アイデンティティの超越のプロセスを記録したりする。`,
-      url: 'https://www.tsaishihhsiang-artstudio.com/',
     },
     {
       id: 'anja',
@@ -131,6 +129,14 @@ export const residents: ResidentHomepage = {
       descriptionJa: `ハンブルクを拠点とするグラフィックアーティスト、画家。
     彼女の作品は、都市の物語とレイヤー構成を組み合わせたものが多い。滞在制作中には、「家」、自然と都市のダイナミックな関係、そして未知の領域における外国人としての外から内への視点の変化といったテーマを探求する。`,
       url: 'https://diegiese.de/',
+    },
+    {
+      id: 'tsai',
+      name: 'Tsai Shih-Hsiang',
+      description: `Co-founder of the art collective “Hyper Wave" in Taiwan.  
+    Tsai’s works often use video and photography to contemplate the city, landscapes, and the people toiling within them, or to document processes of drifting, shifting, and transcending the identity.`,
+      descriptionJa: `台湾にあるアートコレクティブ「Hyper Wave」の創始者。作品はビデオや写真を使って、都市や風景、その中で働く人々について考えたり、漂流や移動、アイデンティティの超越のプロセスを記録したりする。`,
+      url: 'https://www.tsaishihhsiang-artstudio.com/',
     },
     {
       id: 'konstanze',
