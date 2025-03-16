@@ -7,8 +7,12 @@
         class="pad flexcolumn"
         style="align-items: flex-end; gap: 0.5em"
       >
-        <LangPicker />
-        <Social />
+        <div class="flexverticalcenter menuBar">
+          <div class="bg"></div>
+          <Menu />
+          <LangPicker />
+          <Social />
+        </div>
       </div>
     </nav>
     <NuxtPage />
@@ -76,17 +80,17 @@ function updateWindowWidth() {
   ]
 }
 
-// // scroll watcher
-// onMounted(() => {
-//   window.addEventListener('scroll', updateScroll)
-//   updateScroll()
-// })
-// onBeforeUnmount(() => {
-//   window.removeEventListener('scroll', updateScroll)
-// })
-// function updateScroll() {
-//   state.windowScroll.value = window.scrollY
-// }
+// scroll watcher
+onMounted(() => {
+  window.addEventListener('scroll', updateScroll)
+  updateScroll()
+})
+onBeforeUnmount(() => {
+  window.removeEventListener('scroll', updateScroll)
+})
+function updateScroll() {
+  state.windowScroll.value = window.scrollY
+}
 
 // // mouse watcher
 // onMounted(() => {
@@ -132,6 +136,22 @@ nav {
 
   .logo {
     width: 200px;
+  }
+
+  .menuBar {
+    position: relative;
+    backdrop-filter: blur(4px);
+
+    .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: var(--base-d);
+      opacity: 0.5;
+      z-index: -1;
+    }
   }
 }
 </style>

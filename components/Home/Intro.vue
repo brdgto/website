@@ -110,6 +110,7 @@ section {
     max-width: 700px;
     padding: 2em 2em 1em 2em;
     position: relative;
+    backdrop-filter: blur(4px);
     // box-shadow: inset 0 0 0 6px var(--base-l2);
 
     .bridgeLogo {
@@ -131,7 +132,7 @@ section {
       width: 100%;
       height: 100%;
       background: var(--base-d2);
-      opacity: 0.7;
+      opacity: 0.6;
       z-index: -1;
     }
   }

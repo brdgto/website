@@ -22,7 +22,13 @@
           </div>
         </a>
 
-        <Social style="transform: scale(1.5); --gap: 1em" />
+        <Social
+          style="
+            transform: scale(1.5);
+            --gap: 1em;
+            --social-bg: var(--base-d);
+          "
+        />
       </div>
 
       <div>

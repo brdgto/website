@@ -28,13 +28,14 @@
 
   a {
     height: 100%;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-    background-color: var(--social-bg, var(--base-d));
+    width: 4rem;
+    height: 4rem;
+    padding: 1.4rem;
+    background-color: var(--social-bg, transparent);
 
     &:hover {
-      filter: brightness(1.2);
+      background-color: var(--base);
+      // filter: brightness(1.2);
     }
 
     img {

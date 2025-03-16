@@ -1,6 +1,8 @@
 <template>
-  <section class="v2" id="mailingList">
-    <div class="contentcolumn">
+  <section class="v2 shadowFromTop" id="mailingList">
+    <div class="light v1" style="opacity: 0.1"></div>
+
+    <div class="contentcolumn relative z2">
       <div class="textcolumn newsletter">
         <h1>Newsletter</h1>
 

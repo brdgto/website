@@ -143,6 +143,7 @@ section {
     &:after {
       content: '';
       position: absolute;
+      z-index: 1;
       top: 0;
       left: 0;
       right: 0;
@@ -154,7 +155,7 @@ section {
         rgba(0, 0, 0, 0.4) 20%,
         rgba(0, 0, 0, 0) 100%
       );
-      opacity: 0.6;
+      opacity: 0.5;
       pointer-events: none;
     }
   }
@@ -279,6 +280,12 @@ h3 {
   line-height: 1.2;
 }
 
+button {
+  font-family: var(--fontStack);
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 button,
 a.button,
 #mc_embed_signup
@@ -287,6 +294,7 @@ a.button,
   #mc-embedded-subscribe,
 #mc_embed_signup .button {
   // text-transform: uppercase;
+  position: relative;
   font-size: 1.1em;
   letter-spacing: 2px;
   font-weight: 800;
