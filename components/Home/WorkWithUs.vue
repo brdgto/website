@@ -255,7 +255,7 @@
       </div>
 
       <a
-        href="#"
+        href="mailto:bridgetoresidency@gmail.com"
         target="_blank"
         class="button martop"
         v-if="seeMore"
