@@ -12,7 +12,7 @@
     <a href="#apply">Apply</a>
     <a href="#faq">FAQ</a>
     <a href="#workwithus">
-      <template v-if="locale === 'ja'"> 業務内容 </template>
+      <template v-if="locale === 'ja'"> Recruit </template>
       <template v-else> Work with us! </template>
     </a>
   </div>
