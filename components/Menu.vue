@@ -7,14 +7,14 @@
     }"
   >
     <!-- <div class="bg"></div> -->
-    <a href="#openCall" class="highlight">[Open Call]</a>
+    <a href="#openCall" class="highlight">Open Call</a>
     <!-- <a href="#space">Space</a> -->
     <a href="#apply">Apply</a>
     <a href="#faq">FAQ</a>
-    <a href="#workwithus">
+    <!-- <a href="#workwithus">
       <template v-if="locale === 'ja'"> Recruit </template>
       <template v-else> Work with us! </template>
-    </a>
+    </a> -->
   </div>
 </template>
 
