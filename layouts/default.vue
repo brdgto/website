@@ -70,8 +70,6 @@ onMounted(async () => {
   state.ipInfo.value =
     ((await $fetch('https://ipapi.co/json/')) as any) ||
     null
-
-  console.log(state.ipInfo.value)
 })
 
 // window resize watcher
