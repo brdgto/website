@@ -12,6 +12,57 @@ export const mousePos = ref([0, 0])
 export const openCall = ref(true)
 export const ipInfo: Ref<IpInfo | null> = ref(null)
 
+export const pm = computed(() => {
+  if (!ipInfo.value) return 1
+
+  // North America
+  if (ipInfo.value.continent_code === 'NA') return 1.4
+  // Europe
+  if (ipInfo.value.continent_code === 'EU') return 1.4
+  // Asia
+  if (ipInfo.value.continent_code === 'AS') {
+    // Japan
+    if (ipInfo.value.country_code === 'JP') return 1
+    // South Korea
+    if (ipInfo.value.country_code === 'KR') return 1
+    // China
+    if (ipInfo.value.country_code === 'CN') return 1
+    // Hong Kong
+    if (ipInfo.value.country_code === 'HK') return 1
+    // Taiwan
+    if (ipInfo.value.country_code === 'TW') return 1
+    // Vietnam
+    if (ipInfo.value.country_code === 'VN') return 0.8
+    // Indonesia
+    if (ipInfo.value.country_code === 'ID') return 0.8
+    // Philippines
+    if (ipInfo.value.country_code === 'PH') return 0.8
+    // Thailand
+    if (ipInfo.value.country_code === 'TH') return 0.8
+    // Malaysia
+    if (ipInfo.value.country_code === 'MY') return 0.8
+    // India
+    if (ipInfo.value.country_code === 'IN') return 1
+    // Singapore
+    if (ipInfo.value.country_code === 'SG') return 1
+
+    return 1
+  }
+  // Africa
+  if (ipInfo.value.continent_code === 'AF') {
+    // North Africa
+    if (ipInfo.value.longitude > 25) return 1
+    // Sahara and Below
+    else return 0.7
+  }
+  // South America
+  if (ipInfo.value.continent_code === 'SA') return 0.8
+  // Oceania
+  if (ipInfo.value.continent_code === 'OC') return 1
+
+  return 1
+})
+
 interface IpInfo {
   asn: string
   city: string

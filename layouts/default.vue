@@ -65,12 +65,12 @@ const head: Parameters<typeof useHead>[0] = {
 }
 useHead(head)
 
-// get visitor ip location
-onMounted(async () => {
-  state.ipInfo.value =
-    ((await $fetch('https://ipapi.co/json/')) as any) ||
-    null
-})
+// // get visitor ip location
+// onMounted(async () => {
+//   state.ipInfo.value =
+//     ((await $fetch('https://ipapi.co/json/')) as any) ||
+//     null
+// })
 
 // window resize watcher
 onMounted(() => {
