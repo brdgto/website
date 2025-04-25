@@ -84,13 +84,21 @@ export const studioMembers: ResidentHomepage = {
 }
 
 export const residents: ResidentHomepage = {
-  upcoming: [
+  upcoming: [],
+  past: [
     {
       id: 'nina',
       name: 'Nina Fradet',
       description: `Artist, craftswoman and founder of HINN. Interested for several years in building a relationship between Cabinetmaking and Takezaiku - Japanese bamboo basketry - her research is gradually being refined to find its essence in the exercise of line and the consciousness of gestures to bring it to life.`,
       descriptionJa: `アーティストであり女性職人、そしてHINNの創設者であるNina Fradetは、協働するクリエイターたちを結びつけ、すべての作品に深く関与している。長年にわたり、キャビネット制作（木工家具）と竹細工（日本の竹かご作り）の関係性に関心を寄せ、線の表現と手の動きに意識を向けながら、その本質を探求し続けている。`,
       url: 'https://www.hinnstudio.com/',
+    },
+    {
+      id: 'arjan',
+      name: 'Arjan Rietveld',
+      description: `Dutch curator, editor and publisher. Following a long-stretched musical journey, Arjan Rietveld develops projects and stories within cultural and societal contexts.`,
+      descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 Arjan Rietveldは、長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
+      url: 'https://studio-rietveld.com/',
     },
     {
       id: 'jamie',
@@ -106,15 +114,6 @@ export const residents: ResidentHomepage = {
       descriptionJa: `学際的なアーティストであり、Jamie Kruseとともにsmudge studioとして活動している。彼女のメディアは、活版印刷、コラージュ、写真、立体作品など。smudge studio の作品は、変化し続ける地球環境の中で、瞬間ごとに創造的に適応していくことをテーマとしている。`,
       url: 'https://www.smudgestudio.org/',
     },
-    {
-      id: 'arjan',
-      name: 'Arjan Rietveld',
-      description: `Dutch curator, editor and publisher. Following a long-stretched musical journey, Arjan Rietveld develops projects and stories within cultural and societal contexts.`,
-      descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 Arjan Rietveldは、長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
-      url: 'https://studio-rietveld.com/',
-    },
-  ],
-  past: [
     {
       id: 'maciej',
       name: 'Maciej Burdalski',

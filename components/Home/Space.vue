@@ -1,16 +1,9 @@
 <template>
   <section class="v2" id="space">
     <div class="light"></div>
-    <div
-      v-lazy:background-image="
-        '/img/2024/20231202_kyoto_238_4000.jpg'
-      "
-      class="interstitial shadow"
-      style="min-height: 30em"
-    ></div>
 
     <div class="contentcolumn">
-      <h1>Our Spaces</h1>
+      <h1>Our Space</h1>
 
       <div class="leftright">
         <div class="sticky">
@@ -210,11 +203,7 @@
 
       <div class="spacer martopbig padtopbig desktop"></div>
 
-      <div class="relative padtopbig padbotbig">
-        <!-- <div class="overlayTitle">
-          <img src="/img/logos/bridgeToKyoto.svg" />
-        </div> -->
-
+      <!-- <div class="relative padtopbig padbotbig">
         <div class="leftright padbotbig marbotbig">
           <img
             ref="$bridgeToKyoto"
@@ -256,7 +245,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="padbig desktop"></div>
     </div>
   </section>
@@ -445,5 +434,9 @@ p {
 
 .contentcolumn {
   padding-bottom: 0;
+
+  @media (max-width: 768px) {
+    padding-bottom: 1rem;
+  }
 }
 </style>

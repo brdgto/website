@@ -222,7 +222,7 @@
                 <div class="marleft">
                   <div>
                     We're currently open for residencies
-                    starting from March 2025 or beyond.
+                    starting from May 2025 or beyond.
                   </div>
                   <div class="small martopsmall">
                     <span class="fade">
@@ -742,7 +742,8 @@ h1 {
   }
 }
 
-.residency {
+.residency,
+.studio {
   @media (max-width: 768px) {
     padding: 0;
   }

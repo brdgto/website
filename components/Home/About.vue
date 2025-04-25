@@ -1,5 +1,13 @@
 <template>
   <section class="about">
+    <div
+      v-lazy:background-image="
+        '/img/2024/20231202_kyoto_238_4000.jpg'
+      "
+      class="interstitial shadow"
+      style="min-height: 30em"
+    ></div>
+
     <div class="textbox" id="about">
       <div class="hasBg">
         <div class="bg"></div>
@@ -7,7 +15,7 @@
         <template v-if="locale === 'ja'">
           <p>
             京都・左京区に位置するBridge
-            Toは、建築・まちづくり・デザイン・アートなどに関わる実践者のための複合スペース
+            Studioは、建築・まちづくり・デザイン・アートなどに関わる実践者のための複合スペース
             &amp;
             プラットフォームです。国内外のアーティストが滞在できるレジデンスや、シェアアトリエ、イベントスペース、建築・都市・まちづくり関係の蔵書やアイテムを公開する私設ライブラリーほか、文化芸術事業の企画運営・展覧会の企画やキュレーションなども行なっています。
             <!-- 現在、「Bridge
@@ -18,16 +26,16 @@
 
         <template v-else>
           <p>
-            Located in Sakyo-ku, Kyoto, Bridge To is a space
-            for practitioners involved in architecture,
-            urban development, design, art, and beyond. We
-            offer residencies for artists from Japan and
-            abroad, a shared atelier, an event space, and a
-            private library of books and items related to
-            architecture, urban planning, and city planning.
-            We also plan, manage, and host cultural and
-            artistic projects, organize and curate
-            exhibitions, and more.
+            Located in Sakyo-ku, Kyoto, Bridge Studio is a
+            space for practitioners involved in
+            architecture, urban development, design, art,
+            and beyond. We offer residencies for artists
+            from Japan and abroad, a shared atelier, an
+            event space, and a private library of books and
+            items related to architecture, urban planning,
+            and city planning. We also plan, manage, and
+            host cultural and artistic projects, organize
+            and curate exhibitions, and more.
             <!-- Our two active locations
             are
             <b>Bridge Studio</b> and <b>Bridge Office</b>. -->
@@ -46,15 +54,25 @@ const locale = i18n.locale
 
 <style lang="scss" scoped>
 .about {
+  background: none;
   width: 100%;
   position: relative;
-  height: 0;
+  // height: 0;
   // height: 200px;
   padding: 0;
   z-index: 2;
 
   @media (max-width: 768px) {
     height: auto;
+    overflow: hidden;
+  }
+}
+
+.interstitial {
+  @media (max-width: 768px) {
+    position: absolute;
+    height: 100%;
+    clip-path: inset(0 0 0 0);
   }
 }
 
@@ -64,6 +82,8 @@ const locale = i18n.locale
   padding: 0;
   position: absolute;
   right: 0;
+  top: 0;
+  z-index: 3;
 
   .hasBg {
     margin-top: 10vh;

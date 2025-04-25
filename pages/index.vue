@@ -1,11 +1,13 @@
 <template>
   <main>
     <HomeIntro />
-    <HomeOpenCallBanner />
+    <!-- <HomeOpenCallBanner /> -->
     <!-- <Kickstarter /> -->
     <HomeAbout />
+    <HomeObservatory />
     <HomeSpace />
-    <HomeInsta />
+    <!-- <HomeOurInitiatives /> -->
+    <!-- <HomeInsta /> -->
     <HomeApply />
     <HomeResidents />
     <HomeStudioMembers />

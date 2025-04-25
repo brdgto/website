@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: `Bridge To`,
+      title: `Bridge Studio`,
 
       meta: [
         { charset: 'utf-8' },
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
         {
           property: 'og:title',
           hid: `og:title`,
-          content: 'Bridge To',
+          content: 'Bridge Studio',
         },
         {
           property: 'og:description',
@@ -31,7 +31,7 @@ export default defineNuxtConfig({
         {
           hid: `og:site_name`,
           property: 'og:site_name',
-          content: 'Bridge To',
+          content: 'Bridge Studio',
         },
         {
           hid: `og:image`,
@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         {
           property: 'twitter:title',
           hid: `twitter:title`,
-          content: 'Bridge To',
+          content: 'Bridge Studio',
         },
         {
           hid: `og:url`,

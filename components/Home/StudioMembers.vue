@@ -52,7 +52,7 @@ import { studioMembers } from '~/assets/people'
   padding-top: 0;
 }
 h1 {
-  margin-top: 130px;
+  margin-top: 100px;
 }
 h1,
 p {

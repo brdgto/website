@@ -14,15 +14,15 @@
         <div class="rightbox flexverticalcenter">
           <div class="bridgeLogo">
             <img
-              src="/img/logos/bridgeToKyotoBridgeOnly.svg"
+              src="/img/logos/bridgeStudioLogoOnly.svg"
             />
           </div>
           <div class="bg"></div>
           <h1>
-            <span
-              >A multifunctional space for critical
-              makers.</span
-            >
+            <span> A place for experiments. </span>
+            <!-- <span>
+              A multifunctional space for critical makers.
+            </span> -->
           </h1>
         </div>
       </div>
@@ -69,15 +69,16 @@ section {
 .introtext {
   // width: 580px;
   position: absolute;
-  top: 35vh;
+  top: 40vh;
   left: 5vw;
 
   @media (max-width: 768px) {
-    top: 25vh;
+    top: 55vh;
     margin-right: 1em;
 
     h1 {
       font-size: 2em;
+      margin: 0;
     }
   }
 
@@ -87,6 +88,7 @@ section {
   }
 
   .logo {
+    display: none;
     width: 24em;
     padding: 4em 5em 3em 5em;
     background: var(--base-d);
@@ -107,7 +109,7 @@ section {
   // }
 
   .rightbox {
-    max-width: 700px;
+    max-width: 500px;
     padding: 2em 2em 1em 2em;
     position: relative;
     backdrop-filter: blur(4px);
@@ -121,7 +123,7 @@ section {
       padding: 2em 2em;
 
       img {
-        width: 10em;
+        width: 12em;
       }
     }
 
@@ -134,6 +136,12 @@ section {
       background: var(--base-d2);
       opacity: 0.6;
       z-index: -1;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 100%;
+      padding: 1.5em;
+      max-width: 250px;
     }
   }
 }
