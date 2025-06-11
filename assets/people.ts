@@ -14,6 +14,22 @@ export const studioMembers: ResidentHomepage = {
       url: 'https://www.instagram.com/ichen2193/',
     },
     {
+      id: 'kawasaki',
+      name: 'Mineo Kawasaki',
+      description: 'Drummer and composer.',
+      descriptionJa: 'ドラマー、ビートメイカー',
+      url: 'https://linktr.ee/mineo_kawasaki',
+    },
+    {
+      id: 'osawa',
+      name: 'Yuki Osawa',
+      description: `Architect.`,
+      descriptionJa: `建築家。`,
+      url: 'https://www.instagram.com/osawa_opdo/',
+    },
+  ],
+  past: [
+    {
       id: 'teo',
       name: 'Teo Knives',
       description:
@@ -31,22 +47,6 @@ export const studioMembers: ResidentHomepage = {
         'ロシア語で書いている日本詩人、白帽ハッカー。',
       url: 'https://t.me/s/iannoshi',
     },
-    {
-      id: 'kawasaki',
-      name: 'Mineo Kawasaki',
-      description: 'Drummer and composer.',
-      descriptionJa: 'ドラマー、ビートメイカー',
-      url: 'https://linktr.ee/mineo_kawasaki',
-    },
-    {
-      id: 'osawa',
-      name: 'Yuki Osawa',
-      description: `Architect.`,
-      descriptionJa: `建築家。`,
-      url: 'https://www.instagram.com/osawa_opdo/',
-    },
-  ],
-  past: [
     {
       id: 'hmw',
       name: 'Hand Made Works',
@@ -89,29 +89,29 @@ export const residents: ResidentHomepage = {
     {
       id: 'nina',
       name: 'Nina Fradet',
-      description: `Artist, craftswoman and founder of HINN. Interested for several years in building a relationship between Cabinetmaking and Takezaiku - Japanese bamboo basketry - her research is gradually being refined to find its essence in the exercise of line and the consciousness of gestures to bring it to life.`,
-      descriptionJa: `アーティストであり女性職人、そしてHINNの創設者であるNina Fradetは、協働するクリエイターたちを結びつけ、すべての作品に深く関与している。長年にわたり、キャビネット制作（木工家具）と竹細工（日本の竹かご作り）の関係性に関心を寄せ、線の表現と手の動きに意識を向けながら、その本質を探求し続けている。`,
+      description: `Artist, craftswoman and founder. Interested for several years in building a relationship between Cabinetmaking and Takezaiku - Japanese bamboo basketry - her research is gradually being refined to find its essence in the exercise of line and the consciousness of gestures to bring it to life.`,
+      descriptionJa: `アーティストであり女性職人、そしてHINNの創設者であるNinaは、協働するクリエイターたちを結びつけ、すべての作品に深く関与している。長年にわたり、キャビネット制作（木工家具）と竹細工（日本の竹かご作り）の関係性に関心を寄せ、線の表現と手の動きに意識を向けながら、その本質を探求し続けている。`,
       url: 'https://www.hinnstudio.com/',
     },
     {
       id: 'arjan',
       name: 'Arjan Rietveld',
-      description: `Dutch curator, editor and publisher. Following a long-stretched musical journey, Arjan Rietveld develops projects and stories within cultural and societal contexts.`,
-      descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 Arjan Rietveldは、長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
+      description: `Dutch curator, editor and publisher. Following a long-stretched musical journey, he develops projects and stories within cultural and societal contexts.`,
+      descriptionJa: `オランダ出身のキュレーター、編集者、出版者。 長年にわたる音楽の探求を経て、文化や社会の文脈の中でプロジェクトやストーリーを展開している。`,
       url: 'https://studio-rietveld.com/',
     },
     {
       id: 'jamie',
       name: 'Jamie Kruse',
-      description: `Artist and professor based in New York and Maine. One half of smudge studio collaborative. Inspired by both ancient and contemporary observations of Earth’s time and place in the cosmos, we stage embodied engagements with the planet’s ever-transforming events and conditions — human and nonhuman.`,
-      descriptionJa: `ニューヨークとメイン州を拠点とするアーティスト兼教授。コラボレーションユニット「smudge studio」のメンバー。写真やパフォーマティブ・リサーチのほか、マルチプル、マイクロ・プロダクションを手がける。古代と現代の視点から、地球の時間や宇宙における位置を観察することで、人間と非人間の視点から、絶えず変容する地球の出来事や環境と直接関わる体験を創り出している。`,
+      description: `Artist and professor based in New York and Maine. Inspired by both ancient and contemporary observations of Earth’s time and place in the cosmos, we stage embodied engagements with the planet’s ever-transforming events and conditions — human and nonhuman.`,
+      descriptionJa: `ニューヨークとメイン州を拠点とするアーティスト兼教授。写真やパフォーマティブ・リサーチのほか、マルチプル、マイクロ・プロダクションを手がける。古代と現代の視点から、地球の時間や宇宙における位置を観察することで、人間と非人間の視点から、絶えず変容する地球の出来事や環境と直接関わる体験を創り出している。`,
       url: 'https://www.smudgestudio.org/',
     },
     {
       id: 'elizabeth',
       name: 'Elizabeth Ellsworth',
-      description: `A multidisciplinary artist collaborating with Jamie Kruse as smudge studio. Her media include letterpress, collage, photography, and built objects. smudge studio’s work focuses on creatively adapting, moment to moment, to the changing planetary conditions we live within.`,
-      descriptionJa: `学際的なアーティストであり、Jamie Kruseとともにsmudge studioとして活動している。彼女のメディアは、活版印刷、コラージュ、写真、立体作品など。smudge studio の作品は、変化し続ける地球環境の中で、瞬間ごとに創造的に適応していくことをテーマとしている。`,
+      description: `A multidisciplinary artist. Her media include letterpress, collage, photography, and built objects. Her work focuses on creatively adapting, moment to moment, to the changing planetary conditions we live within.`,
+      descriptionJa: `学際的なアーティスト。彼女のメディアは、活版印刷、コラージュ、写真、立体作品など。変化し続ける地球環境の中で、瞬間ごとに創造的に適応していくことをテーマとしている。`,
       url: 'https://www.smudgestudio.org/',
     },
     {
@@ -132,16 +132,16 @@ export const residents: ResidentHomepage = {
     {
       id: 'tsai',
       name: 'Tsai Shih-Hsiang',
-      description: `Co-founder of the art collective “Hyper Wave" in Taiwan.  
+      description: `Co-founder of an art collective in Taiwan.  
     Tsai’s works often use video and photography to contemplate the city, landscapes, and the people toiling within them, or to document processes of drifting, shifting, and transcending the identity.`,
-      descriptionJa: `台湾にあるアートコレクティブ「Hyper Wave」の創始者。作品はビデオや写真を使って、都市や風景、その中で働く人々について考えたり、漂流や移動、アイデンティティの超越のプロセスを記録したりする。`,
+      descriptionJa: `台湾にあるアートコレクティブの創始者。作品はビデオや写真を使って、都市や風景、その中で働く人々について考えたり、漂流や移動、アイデンティティの超越のプロセスを記録したりする。`,
       url: 'https://www.tsaishihhsiang-artstudio.com/',
     },
     {
       id: 'konstanze',
       name: 'Konstanze Stoiber',
       description: `Artist and PhD candidate.
-      Konstanze draws upon references of fallen systems, dissecting the remnants of monarchial and religious structures. An analysis of extremes - sublimity and violence in power structures and their self-contradictory nature.`,
+      She draws upon references of fallen systems, dissecting the remnants of monarchial and religious structures. An analysis of extremes - sublimity and violence in power structures and their self-contradictory nature.`,
       descriptionJa: `アーティスト、博士号候補
       彼女は、崩壊したシステムを参照し、君主制や宗教構造の残滓を解剖する。権力構造に潜む崇高さと暴力、そしてそれが内包する矛盾について分析する。`,
       url: 'https://konstanzestoiber.com/',
@@ -159,7 +159,7 @@ export const residents: ResidentHomepage = {
       id: 'tony',
       name: 'Tony Jouanneau',
       description: `A textile designer, craftsman and researcher. 
-      Founded Atelier Sumbiosis, a textile+science laboratory, including experimenting with microalgae dyeing, patterns devoured by insects, or bacterial printing on fabrics.`,
+      Founded a textile+science laboratory, including experimenting with microalgae dyeing, patterns devoured by insects, or bacterial printing on fabrics.`,
       descriptionJa: `テキスタイルデザイナー、工芸者、研究者。`,
       url: 'https://www.atelier-sumbiosis.com',
     },
@@ -167,7 +167,7 @@ export const residents: ResidentHomepage = {
       id: 'claudia',
       name: 'Claudia Chinyere Akole',
       description: `Illustrator, animator, comic artist from Sydney, Australia.
-      Claudia exhibited pages from "Fog" — her graphic novel memoir that she worked on during her residency. Her illustrations are done in her unique ʻTracing Paper Comixʼ style of comic-making, which involves using POSCA acrylic paint markers on multiple layers of tracing paper.`,
+      She exhibited pages from "Fog" — her graphic novel memoir that she worked on during her residency. Her illustrations are done in her unique ʻTracing Paper Comixʼ style of comic-making, which involves using POSCA acrylic paint markers on multiple layers of tracing paper.`,
       descriptionJa: `シドニー出身のイラストレーター・アニメーター・コミックアーティスト。`,
       url: 'https://claudinsky.com',
       showProject: true,
@@ -200,7 +200,7 @@ export const residents: ResidentHomepage = {
 
     {
       id: 'lemos',
-      name: 'Lemos + Lehmann',
+      name: 'Lemos+Lehmann',
       description: `An artist duo focusing on perception, contemplation, and emotion.
         In addition to holding a listening session for SOLSTICE, their limited-edition sound art piece that captures the spiritual cycle of winter in Iceland, they created a space that invited guests to meditate on what comes after life.`,
       descriptionJa: `知覚、瞑想、感情に焦点を当てたアーティストデュオ。
@@ -250,7 +250,7 @@ export const residents: ResidentHomepage = {
       id: 'august',
       name: 'August Henry Moehrke',
       description: `Visual artist located in New York City.
-      August has held multiple exhibitions in Bridge Studio, his latest being "Koyo", which illuminated the autumnal world on painted lanterns, inviting guests to meditate with the fleeting foliage. Previous shows also include "Hanami", exploring the ephemeral beauty of cherry blossoms, and his "Monster Hunter" exploration  into the creation of identity.`,
+      He has held multiple exhibitions in Bridge Studio, his latest being "Koyo", which illuminated the autumnal world on painted lanterns, inviting guests to meditate with the fleeting foliage. Previous shows also include "Hanami", exploring the ephemeral beauty of cherry blossoms, and his "Monster Hunter" exploration  into the creation of identity.`,
       descriptionJa: `ニューヨーク拠点のビジュアルアーティスト。`,
       url: 'https://www.augusthenry.com/',
       showProject: true,
@@ -285,7 +285,7 @@ export const residents: ResidentHomepage = {
       id: 'eliza',
       name: 'Eliza Soroga',
       description: `A site-specific performance artist from Athens.
-        Eliza hosted a "performance architecture" workshop, inviting the people of Jodoji to playfully explore the relationship between the body and the built spaces around them.`,
+        She hosted a "performance architecture" workshop, inviting the people of Jodoji to playfully explore the relationship between the body and the built spaces around them.`,
       descriptionJa: 'パフォーミングアーティスト。',
       url: 'http://www.elizasoroga.com/',
       showProject: true,
@@ -297,7 +297,7 @@ export const residents: ResidentHomepage = {
       id: 'juliette',
       name: 'Juliette Pénélope Pépin',
       description: `Artist and researcher.
-      As part of her residency, Juliette created a kit to construct papercraft frogs, and invited guests from the neighborhood to build and paint their own. The creations were then 3D-scanned and used as part of a larger digital environment.`,
+      As part of her residency, she created a kit to construct papercraft frogs, and invited guests from the neighborhood to build and paint their own. The creations were then 3D-scanned and used as part of a larger digital environment.`,
       descriptionJa: `ペーパークラフトアーティスト、研究者。`,
       url: 'https://juliettepenelope.com/',
       projectAlbumUrl:
@@ -316,7 +316,7 @@ export const residents: ResidentHomepage = {
       id: 'harry',
       name: 'Harry Lee',
       description: `Tea / Ceramic / Landscape artist.
-      Harry hosted a "Mystic Tea House", reinvigorating an abandoned machiya with a uniquely curated tea ceromony held amongst a grove of bamboo growing up through the floorboards.`,
+      He hosted a "Mystic Tea House", reinvigorating an abandoned machiya with a uniquely curated tea ceromony held amongst a grove of bamboo growing up through the floorboards.`,
       descriptionJa:
         '茶人 / 陶芸家 / ランドスケープアーティスト',
       showProject: true,

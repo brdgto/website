@@ -7,7 +7,7 @@
       <div
         class="personImg"
         v-lazy:background-image="`/img/people/${r.id}.jpg`"
-        :alt="`Photo of ${r.name}`"
+        :alt="`Photo of resident`"
       ></div>
       <component
         :is="r.projectAlbumUrl ? 'a' : 'div'"
@@ -19,11 +19,11 @@
         v-lazy:background-image="
           `/img/people/${r.id}_project.jpg`
         "
-        :alt="`Photo of ${r.name}'s work at Bridge Studio'`"
+        :alt="`Photo of resident's work at Bridge Studio`"
       ></component>
     </div>
 
-    <h2 class="name">{{ r.name }}</h2>
+    <!-- <h2 class="name">{{ r.name }}</h2> -->
     <div class="description">
       <div
         class="marbottiny"
@@ -37,7 +37,7 @@
       >
         {{ el }}
       </div>
-      <span class="website" v-if="r.url">
+      <!-- <span class="website" v-if="r.url">
         <a
           v-if="!Array.isArray(r.url)"
           :href="r.url"
@@ -55,7 +55,7 @@
           <span v-if="index < r.url.length - 1">, </span>
         </template>
         <span v-if="r.projectAlbumUrl">, </span>
-      </span>
+      </span> -->
 
       <span class="website" v-if="r.projectAlbumUrl">
         <a :href="r.projectAlbumUrl" target="_blank"
