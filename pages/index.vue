@@ -8,9 +8,9 @@
     <HomeSpace />
     <!-- <HomeOurInitiatives /> -->
     <!-- <HomeInsta /> -->
-    <HomeApply />
-    <HomeResidents />
-    <HomeStudioMembers />
+    <!-- <HomeApply /> -->
+    <!-- <HomeResidents /> -->
+    <!-- <HomeStudioMembers /> -->
     <HomeFAQ />
     <HomePartners />
     <!-- <HomeWorkWithUs /> -->
