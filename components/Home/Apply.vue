@@ -5,7 +5,7 @@
     <div class="contentcolumn">
       <h1>Apply</h1>
 
-      <div class="columns">
+      <div class="columns padtop">
         <div class="residency span2 textcolumn">
           <h2 v-if="locale === 'ja'">
             <img
@@ -27,17 +27,18 @@
             v-if="state.openCall.value"
           >
             <template v-if="locale === 'ja'">
-              <h3>Open Call</h3>
+              <!-- <h3>Open Call</h3> -->
               <div>
-                現在、2025年度のレジデンスの応募を受け付けています。詳細は以下をご覧ください。
+                現在、2025年度のレジデンスはいっぱいとなっております。2026年度の詳細は固定される次第ここでお知らせします。
               </div>
             </template>
             <template v-else>
-              <h3>Open Call</h3>
+              <!-- <h3>Open Call</h3> -->
               <div>
-                We are currently accepting applications for
-                2025 residencies from designers, architects,
-                researchers, and artists.
+                We are currently full for 2025 residencies.
+                We will announce details for 2026 once our
+                schedule has been finalized. Please check
+                back here for updates.
               </div>
 
               <!-- <div class="martoptiny themes">
@@ -50,13 +51,13 @@
                 </ul>
               </div> -->
 
-              <div class="bottomHighlight">
+              <!-- <div class="bottomHighlight">
                 Additionally, we're looking for
                 videographers and carpenters who might want
                 to help us on projects for the space in
                 exchange for a reduced rate! Let us know if
                 you're interested.
-              </div>
+              </div> -->
             </template>
           </div>
 
@@ -669,7 +670,7 @@ h1 {
 .openCallBanner {
   // text-align: center;
   position: relative;
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 1rem 2rem 1rem 2rem;
   // max-width: 550px;
   margin: 3.2em auto 2em auto;
   color: var(--primary);

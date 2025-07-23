@@ -8,7 +8,7 @@
     <HomeSpace />
     <!-- <HomeOurInitiatives /> -->
     <!-- <HomeInsta /> -->
-    <!-- <HomeApply /> -->
+    <HomeApply />
     <!-- <HomeResidents /> -->
     <!-- <HomeStudioMembers /> -->
     <HomeFAQ />
