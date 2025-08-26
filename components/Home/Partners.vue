@@ -86,6 +86,23 @@ const partners: PartnerHomepageData[] = [
       '人類学者・森田敦郎氏が率いるクリティカル・メイキングの研究ラボラトリーと共に、エネルギーや持続可能な未来を考えるための連携拠点としてBridge Toを活用頂いています。',
   },
   {
+    id: 'asterisk',
+    name: '*** in Residence Kyoto',
+    url: 'https://asterisk-kyoto.info',
+    description:
+      'A city-supported program focusing on creative residencies in Kyoto.',
+    descriptionJa: '京都発の創造的滞在を考える。',
+  },
+  {
+    id: 'isbn',
+    name: 'ISBN',
+    url: 'https://asterisk-kyoto.info/246244a9faec8163a765d51ca7d6fc01',
+    description:
+      'A residency housed in a 1940s-renovated former woodblock print studio in Sakyo Ward, Kyoto.',
+    descriptionJa:
+      '1940年代にリニューアルされた京都・左京区の木版画スタジオにて、アーティスト・イン・レジデンスを展開しています。',
+  },
+  {
     id: 'forest',
     name: 'Forest of Craft',
     nameJa: '工藝の森',
@@ -132,15 +149,6 @@ const partners: PartnerHomepageData[] = [
       'Res Artis: Worldwide Network of Arts Residencies is a 31 year old network of arts residency operators from around the globe.',
     descriptionJa:
       '80か国以上で650を超えるメンバーが所属するアーティスト・イン・レジデンスの世界的なネットワーク。',
-  },
-  {
-    id: 'isbn',
-    name: 'ISBN',
-    url: 'https://asterisk-kyoto.info/246244a9faec8163a765d51ca7d6fc01',
-    description:
-      'A residency housed in a 1940s-renovated former woodblock print studio in Sakyo Ward, Kyoto.',
-    descriptionJa:
-      '1940年代にリニューアルされた京都・左京区の木版画スタジオにて、アーティスト・イン・レジデンスを展開しています。',
   },
 ]
 
