@@ -9,7 +9,7 @@
     <!-- <HomeOurInitiatives /> -->
     <!-- <HomeInsta /> -->
     <HomeApply />
-    <!-- <HomeResidents /> -->
+    <HomeResidents />
     <!-- <HomeStudioMembers /> -->
     <HomeFAQ />
     <HomePartners />
