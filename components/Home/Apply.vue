@@ -293,6 +293,126 @@
           </a>
         </div>
 
+        <div class="spaceRental span2 textcolumn">
+          <h2 v-if="locale === 'ja'">
+            <img
+              src="/img/icons/event.svg"
+              class="applyIcon"
+            />
+            ギャラリー、イベント
+          </h2>
+          <h2 v-else>
+            <img
+              src="/img/icons/event.svg"
+              class="applyIcon"
+            />
+            Space Rental
+          </h2>
+
+          <div class="marbotsmall">
+            <img
+              class="sectionImage"
+              src="/img/2024/20231202_kyoto_209_4000.jpg"
+            />
+          </div>
+
+          <div>
+            <template v-if="locale === 'ja'">
+              <div>
+                建築、デザイン、ものづくりなどをテーマにしたイベント、ワークショップ、展示などの企画を常時応募しています。
+              </div>
+              <div>
+                <ul>
+                  <li>
+                    アート、デザイン、建築、工芸、ものづくり関係ほか、大学関係の企画など、幅広く募集を受け付けています。
+                  </li>
+                  <li>
+                    企画運営、スタッフ、参加者管理、イベントページ作成や参加者募集は基本的に持ち込みとさせて頂きます。
+                  </li>
+                  <!-- <li>￥20,000 / 日</li> -->
+                </ul>
+              </div>
+
+              <!-- <div>
+                こちらから提供するもの
+                <ul>
+                  <li>
+                    プロジェクター、スピーカー、文房具やホワイトボードなど基本的なツール類の貸し出し
+                  </li>
+                  <li>イベント拡散のサポート</li>
+                  <li>
+                    海外の方も参加する場合、英語でのサポートも可能（別料金）
+                  </li>
+                </ul>
+              </div> -->
+            </template>
+            <template v-else>
+              <div>
+                We are open for proposals for events,
+                workshops, exhibitions, and more on the
+                themes of architecture, design, and
+                creation.
+              </div>
+              <div class="martopsmall">
+                <!-- <ul>
+                  <li>
+                    We can accept a wide range of applications, including art,
+                    design, architecture, crafts, manufacturing, and
+                    university-related projects.
+                  </li>
+                  <li>
+                    We can not provide assistance in the planning, management,
+                    staff, event page creation, or marketing of the event.
+                  </li>
+                </ul> -->
+              </div>
+
+              <div>
+                <h4>What we provide:</h4>
+                <ul>
+                  <li>
+                    Rental of basic tools such as
+                    projectors, speakers, stationery and
+                    whiteboards
+                  </li>
+                  <li>
+                    Basic event publicity on our social
+                    channels
+                  </li>
+                  <li>
+                    English language support (separate fee)
+                  </li>
+                </ul>
+              </div>
+
+              <!-- <h4>Cost:</h4>
+              <div class="marleft">
+                <b>USD $150 per day</b>
+                <div class="sub">
+                  This price includes taxes.
+                </div>
+              </div> -->
+            </template>
+          </div>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfqA1OG-trCm6Cc4MHJoTOL8muxf58ICO-CRMMs6yjdu5n-aw/viewform"
+            target="_blank"
+            class="button martop"
+          >
+            <div class="secondary">
+              Apply for Space Rental
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup lang="ts">
+/**
+ * 
         <div class="studio span2 textcolumn">
           <h2 v-if="locale === 'ja'">
             <img
@@ -513,124 +633,7 @@
           </a>
         </div>
 
-        <div class="spaceRental">
-          <h2 v-if="locale === 'ja'">
-            <img
-              src="/img/icons/event.svg"
-              class="applyIcon"
-            />
-            ギャラリー、イベント
-          </h2>
-          <h2 v-else>
-            <img
-              src="/img/icons/event.svg"
-              class="applyIcon"
-            />
-            Space Rental
-          </h2>
-
-          <div class="marbotsmall">
-            <img
-              class="sectionImage"
-              src="/img/2024/20231202_kyoto_209_4000.jpg"
-            />
-          </div>
-
-          <div>
-            <template v-if="locale === 'ja'">
-              <div>
-                建築、デザイン、ものづくりなどをテーマにしたイベント、ワークショップ、展示などの企画を常時応募しています。
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    アート、デザイン、建築、工芸、ものづくり関係ほか、大学関係の企画など、幅広く募集を受け付けています。
-                  </li>
-                  <li>
-                    企画運営、スタッフ、参加者管理、イベントページ作成や参加者募集は基本的に持ち込みとさせて頂きます。
-                  </li>
-                  <!-- <li>￥20,000 / 日</li> -->
-                </ul>
-              </div>
-
-              <!-- <div>
-                こちらから提供するもの
-                <ul>
-                  <li>
-                    プロジェクター、スピーカー、文房具やホワイトボードなど基本的なツール類の貸し出し
-                  </li>
-                  <li>イベント拡散のサポート</li>
-                  <li>
-                    海外の方も参加する場合、英語でのサポートも可能（別料金）
-                  </li>
-                </ul>
-              </div> -->
-            </template>
-            <template v-else>
-              <div>
-                We are open for proposals for events,
-                workshops, exhibitions, and more on the
-                themes of architecture, design, and
-                creation.
-              </div>
-              <div class="martopsmall">
-                <!-- <ul>
-                  <li>
-                    We can accept a wide range of applications, including art,
-                    design, architecture, crafts, manufacturing, and
-                    university-related projects.
-                  </li>
-                  <li>
-                    We can not provide assistance in the planning, management,
-                    staff, event page creation, or marketing of the event.
-                  </li>
-                </ul> -->
-              </div>
-
-              <div>
-                <h4>What we provide:</h4>
-                <ul>
-                  <li>
-                    Rental of basic tools such as
-                    projectors, speakers, stationery and
-                    whiteboards
-                  </li>
-                  <li>
-                    Basic event publicity on our social
-                    channels
-                  </li>
-                  <li>
-                    English language support (separate fee)
-                  </li>
-                </ul>
-              </div>
-
-              <!-- <h4>Cost:</h4>
-              <div class="marleft">
-                <b>USD $150 per day</b>
-                <div class="sub">
-                  This price includes taxes.
-                </div>
-              </div> -->
-            </template>
-          </div>
-
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqA1OG-trCm6Cc4MHJoTOL8muxf58ICO-CRMMs6yjdu5n-aw/viewform"
-            target="_blank"
-            class="button martop"
-          >
-            <div class="secondary">
-              Apply for Space Rental
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-</template>
-
-<script setup lang="ts">
+ */
 import * as state from '~/assets/state'
 const i18n = useI18n()
 const locale = i18n.locale
