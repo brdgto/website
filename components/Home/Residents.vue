@@ -54,11 +54,8 @@
           </div>
         </div> -->
 
-        <div
-          class="marright"
-          v-if="residents.upcoming?.length"
-        >
-          <h3>Upcoming</h3>
+        <div v-if="residents.upcoming?.length">
+          <!-- <h3>Upcoming</h3> -->
 
           <div class="flex">
             <HomeResident
@@ -70,7 +67,7 @@
         </div>
 
         <div v-if="residents.past?.length">
-          <h3>Past</h3>
+          <!-- <h3>Past</h3> -->
 
           <div class="flex">
             <HomeResident
