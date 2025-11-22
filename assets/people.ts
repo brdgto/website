@@ -95,8 +95,8 @@ export const residents: ResidentHomepage = {
     {
       id: 'christianeSauer',
       name: 'Christiane Sauer',
-      description: `A Germany-based architect and material researcher. Her work focuses on material development for spatial contexts, drawing on textiles, active materials, and bio-inspiration. She is a Professor of Material Design at Weißensee School of Art and Design Berlin and a member of the Matters of Activity research cluster at Humboldt University.`,
-      descriptionJa: `ドイツを拠点とする建築家・マテリアルリサーチャー。テキスタイル構造やアクティブマテリアル、自然界の仕組みを手がかりに、空間のための素材開発に取り組んでいる。ベルリン芸術大学ヴァイセンゼー校でマテリアルデザインの教授を務め、フンボルト大学の研究クラスター「Matters of Activity」に所属している。`,
+      description: `A Germany-based architect and material researcher. Her work focuses on material development for spatial contexts, drawing on textiles, active materials, and bio-inspiration. She is a Professor of Material Design at Weißensee School of Art and Design Berlin and a member of the Matters of Activity research cluster at Humboldt University. (Photo © Michelle Mantel)`,
+      descriptionJa: `ドイツを拠点とする建築家・マテリアルリサーチャー。テキスタイル構造やアクティブマテリアル、自然界の仕組みを手がかりに、空間のための素材開発に取り組んでいる。ベルリン芸術大学ヴァイセンゼー校でマテリアルデザインの教授を務め、フンボルト大学の研究クラスター「Matters of Activity」に所属している。(写真©Michelle Mantel)`,
       url: 'https://www.matters-of-activity.de/en/members/213/prof-christiane-sauer',
     },
     {
