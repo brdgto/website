@@ -98,6 +98,7 @@ export const residents: ResidentHomepage = {
       description: `A Germany-based architect and material researcher. Her work focuses on material development for spatial contexts, drawing on textiles, active materials, and bio-inspiration. She is a Professor of Material Design at Weißensee School of Art and Design Berlin and a member of the Matters of Activity research cluster at Humboldt University. (Photo © Michelle Mantel)`,
       descriptionJa: `ドイツを拠点とする建築家・マテリアルリサーチャー。テキスタイル構造やアクティブマテリアル、自然界の仕組みを手がかりに、空間のための素材開発に取り組んでいる。ベルリン芸術大学ヴァイセンゼー校でマテリアルデザインの教授を務め、フンボルト大学の研究クラスター「Matters of Activity」に所属している。(写真©Michelle Mantel)`,
       url: 'https://www.matters-of-activity.de/en/members/213/prof-christiane-sauer',
+      showProject: true,
     },
     {
       id: 'nessim',
@@ -105,6 +106,7 @@ export const residents: ResidentHomepage = {
       description: `An artist and curator whose practice listens to the living earth and the rhythms of the heart. Working with clay, seeds, and ritual gestures, he explores how slowness and care can re-weave our connection to the environments we inhabit.`,
       descriptionJa: `アーティスト／キュレーター。生きている大地と心の鼓動に耳を澄ませるように、粘土や種、儀式的な身振りを通して、ゆっくりとした時間とケアが、私たちと環境とのつながりをどのように編み直すのかを探求している。`,
       url: 'https://www.nessimcohenstudio.com/',
+      showProject: true,
     },
     {
       id: 'margre',
@@ -112,12 +114,14 @@ export const residents: ResidentHomepage = {
       description: `An artist from the Netherlands. Her work moves through shifting desires, creating shapes, objects, and sculptures while tracing spaces in search of grounding.`,
       descriptionJa: `オランダ出身のアーティスト。移ろう欲望を手がかりに、形やオブジェクト、彫刻を制作し、よりどころを探すように空間や場所を辿っている。`,
       url: 'https://margresteensma.com',
+      showProject: true,
     },
     {
       id: 'alisha',
       name: 'Alisha Baker',
       description: `A landscape architect, gardener, and maker based in Australia. Her practice explores stories of place and care through collaborations with ecologists, craftspeople, and communities.`,
       descriptionJa: `オーストラリアを拠点とするランドスケープアーキテクト、ガーデナー、メイカー。生態学者や職人、コミュニティとの協働を通じて、場所とケアの物語を探求している。`,
+      showProject: true,
     },
     {
       id: 'geraldine',
@@ -126,6 +130,7 @@ export const residents: ResidentHomepage = {
       descriptionJa: `アルゼンチン出身の建築家・ヴィジュアルアーティスト。
       農村的な東洋と港町的な西洋、そのあいだに横たわる現実と想像の境界を探究している。拾い集めたオブジェクトを手がかりに、自身のルーツを問い直す実践を続けている。`,
       url: 'https://drive.google.com/file/d/1rmMkn_cLTWVjBpOAe_bNBL-dIzsqceBE/view?usp=drivesdk',
+      showProject: true,
     },
     {
       id: 'jan',
@@ -133,6 +138,7 @@ export const residents: ResidentHomepage = {
       description: `A Swiss urbanist, researcher and lifelong learning expert reimagining human-planetary relationships. He is the initiator of Nominute.City and the project’s owner and Principal Investigator. He is also the author of the Space-Place-Identity Framework, which he started developing in 2006.`,
       descriptionJa: `スイス出身のアーバニスト／リサーチャーであり、生涯学習の専門家。人間と地球の関係性を再考する取り組みを行っている。Nominute.City の提唱者であり、同プロジェクトのオーナー兼プリンシパル・インベスティゲーター（主任研究者）を務める。また、2006年より開発を始めた「Space-Place-Identity Framework（空間・場所・アイデンティティ・フレームワーク）」の著者でもある。`,
       url: 'https://nominute.city/',
+      showProject: true,
     },
     {
       id: 'nina',
