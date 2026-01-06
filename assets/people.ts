@@ -182,6 +182,7 @@ export const residents: ResidentHomepage = {
       descriptionJa: `ハンブルクを拠点とするグラフィックアーティスト、画家。
     彼女の作品は、都市の物語とレイヤー構成を組み合わせたものが多い。滞在制作中には、「家」、自然と都市のダイナミックな関係、そして未知の領域における外国人としての外から内への視点の変化といったテーマを探求する。`,
       url: 'https://diegiese.de/',
+      showProject: true,
     },
     {
       id: 'tsai',
@@ -190,6 +191,7 @@ export const residents: ResidentHomepage = {
     Tsai’s works often use video and photography to contemplate the city, landscapes, and the people toiling within them, or to document processes of drifting, shifting, and transcending the identity.`,
       descriptionJa: `台湾にあるアートコレクティブの創始者。作品はビデオや写真を使って、都市や風景、その中で働く人々について考えたり、漂流や移動、アイデンティティの超越のプロセスを記録したりする。`,
       url: 'https://www.tsaishihhsiang-artstudio.com/',
+      showProject: true,
     },
     {
       id: 'konstanze',
@@ -199,6 +201,7 @@ export const residents: ResidentHomepage = {
       descriptionJa: `アーティスト、博士号候補
       彼女は、崩壊したシステムを参照し、君主制や宗教構造の残滓を解剖する。権力構造に潜む崇高さと暴力、そしてそれが内包する矛盾について分析する。`,
       url: 'https://konstanzestoiber.com/',
+      showProject: true,
     },
     {
       id: 'karien',
