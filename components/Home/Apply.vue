@@ -24,7 +24,7 @@
 
           <div
             class="openCallBanner"
-            v-if="state.openCall.value"
+            v-if="false && state.openCall.value"
           >
             <template v-if="locale === 'ja'">
               <!-- <h3>Open Call</h3> -->
@@ -73,9 +73,12 @@
 
           <div>
             <template v-if="locale === 'ja'">
-              <div>
-                <!-- Bridge to
-                Kyotoは、「都市」をテーマに分野・文化・国籍を超えた活動を行うための場所です。海外を中心に、国内外から1〜6ヶ月の単位で「アーバニスト・イン・レジデンス」として実践者を受け入れ、地元のコミュニティや活動とつなぐ手助けをします。応募は、年間を通して随時可能です。 -->
+              <!-- <div>
+                Bridge to
+                Kyotoは、「都市」をテーマに分野・文化・国籍を超えた活動を行うための場所です。海外を中心に、国内外から1〜6ヶ月の単位で「アーバニスト・イン・レジデンス」として実践者を受け入れ、地元のコミュニティや活動とつなぐ手助けをします。応募は、年間を通して随時可能です。 
+
+
+
                 年間を通して随時アーティスト・イン・レジデンス滞在制作希望者を募集しています。費用や待遇についてはお問合せください。
               </div>
               <br />
@@ -98,7 +101,7 @@
                 </li>
               </ul>
 
-              <!-- <div>
+              <div>
                 こちらが提供するもの
                 <ul>
                   <li>滞在場所、オフィススペース（家具、Wifi付き）</li>
@@ -115,15 +118,24 @@
                 </ul>
               </div>
 
-              <div>
-                費用 プライベートルーム +
-                オフィススペース、滞在中最低1回のコミュニティスペースの利用
-                ¥70,000 + ¥5,000（共用費） *
-                1ヶ月〜6ヶ月以外の滞在期間をご希望の方はご連絡ください。
-              </div> -->
+             -->
+              2026年以降、レジデンスの受入は招待制および紹介制に移行します。過去にBridge
+              Studioと直接関わりのあった方、または信頼する関係者からの紹介を通じた方を対象とします。
+              方針の変更となることは承知しておりますが、今後も活動を持続可能なかたちで続け、地域との関係性をより丁寧に育てていくための判断です。ご理解いただけましたら幸いです。2026年の募集に関しては、詳細が決定次第告知を致します。
             </template>
 
             <template v-else>
+              From 2026 onward, the residency programme will
+              move to an invitation- and referral-based
+              model. We will host people who have previously
+              engaged with Bridge Studio, as well as those
+              introduced through trusted collaborators. This
+              change reflects our intention to keep the
+              programme sustainable and closely connected to
+              its local context. Details of the 2026
+              residency programme will be shared once ready.
+
+              <!--             
               We accept residents from Japan and abroad on a
               1-6 month basis, and help them connect with
               local communities and activities. Applications
@@ -241,7 +253,7 @@
                 </div>
               </div>
 
-              <!-- <div>
+<div>
                 <h4>Rates</h4>
                 <div class="marleft">
                   <div>
@@ -280,17 +292,17 @@
                     </li>
                   </ul>
                 </div>
-              </div> -->
+              </div>-->
             </template>
           </div>
 
-          <a
+          <!-- <a
             href="https://forms.gle/Aexb7oEZFzB5s1JN7"
             target="_blank"
             class="button martop"
           >
             <div class="secondary">Apply for Residency</div>
-          </a>
+          </a> -->
         </div>
 
         <div class="spaceRental span2 textcolumn">

@@ -15,7 +15,7 @@
           alt="Observatory"
           class="observatoryLogo"
         />
-        <div style="max-width: 400px">
+        <div style="width: 100%">
           <div v-if="locale === 'ja'">
             Bridge
             Studioを拠点に活動する「都市エコロジー観測所
@@ -81,13 +81,14 @@ const handleScroll = () => {
 
 <style lang="scss" scoped>
 .contentcolumn {
-  display: flex;
-  align-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 6rem;
   color: var(--base-l2);
 
   @media (max-width: 768px) {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     gap: 2rem;
   }
 }

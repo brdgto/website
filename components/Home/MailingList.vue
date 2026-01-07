@@ -73,7 +73,14 @@
           </form>
         </div> -->
 
-        <div id="substack-feed-embed" class="martop"></div>
+        <!-- <div id="substack-feed-embed" class="martop"></div> -->
+        <a
+          href="https://bridgestudiobridgeto.substack.com/"
+          target="_blank"
+          class="button primary martop"
+        >
+          <div>Check it Out Here</div>
+        </a>
         <iframe
           src="https://bridgestudiobridgeto.substack.com/embed"
           id="substack"
@@ -92,28 +99,28 @@ import * as state from '~/assets/state'
 const i18n = useI18n()
 const locale = i18n.locale
 
-useHead({
-  script: [
-    {
-      src: 'https://substackapi.com/embeds/feed.js',
-      async: true,
-    },
-  ],
-})
+// useHead({
+//   script: [
+//     {
+//       src: 'https://substackapi.com/embeds/feed.js',
+//       async: true,
+//     },
+//   ],
+// })
 
-onMounted(() => {
-  ;(window as any).SubstackFeedWidget = {
-    substackUrl: 'bridgestudiobridgeto.substack.com',
-    posts: 1,
-    layout: 'left',
-    hidden: ['author', 'reactions', 'comments', 'premium'],
-    colors: {
-      primary: '#404040',
-      secondary: '#808080',
-      background: '#FFFFFF',
-    },
-  }
-})
+// onMounted(() => {
+//   ;(window as any).SubstackFeedWidget = {
+//     substackUrl: 'bridgestudiobridgeto.substack.com',
+//     posts: 1,
+//     layout: 'left',
+//     hidden: ['author', 'reactions', 'comments', 'premium'],
+//     colors: {
+//       primary: '#404040',
+//       secondary: '#808080',
+//       background: '#FFFFFF',
+//     },
+//   }
+// })
 
 // onMounted(async () => {
 //   if (!window) return;
