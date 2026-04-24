@@ -5,22 +5,22 @@
     <div class="grid">
       <div
         class="img"
-        v-lazy:background-image="`/img/insta/insta17.jpg`"
+        v-lazy:background-image="`/img/insta/2026_1.png`"
         alt="Photo from the Bridge To Kyoto Instagram"
       ></div>
       <div
         class="img"
-        v-lazy:background-image="`/img/insta/insta14.jpg`"
+        v-lazy:background-image="`/img/insta/2026_2.png`"
         alt="Photo from the Bridge To Kyoto Instagram"
       ></div>
       <div
         class="img"
-        v-lazy:background-image="`/img/insta/insta16.jpg`"
+        v-lazy:background-image="`/img/insta/2026_3.png`"
         alt="Photo from the Bridge To Kyoto Instagram"
       ></div>
       <div
         class="img"
-        v-lazy:background-image="`/img/insta/insta15.jpg`"
+        v-lazy:background-image="`/img/insta/2026_4.jpg`"
         alt="Photo from the Bridge To Kyoto Instagram"
       ></div>
       <a
@@ -28,7 +28,7 @@
         href="https://www.instagram.com/bridgestudio_kyoto/"
         target="_blank"
       >
-        <div>More Photos on Instagram →</div>
+        <div>Check us out on Instagram →</div>
       </a>
     </div>
   </section>

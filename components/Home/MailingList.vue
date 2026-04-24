@@ -14,6 +14,20 @@
           and events! No spam — we'll only send mail when we
           actually have something useful to say.
         </div>
+
+        <div class="substack-post-embed martop">
+          <p lang="en">
+            What We Made, Repaired, and Noticed /
+            つくること、直すこと、観測すること by Bridge
+            Studio / Bridge To
+          </p>
+          <a
+            data-post-link
+            href="https://bridgestudiobridgeto.substack.com/p/what-we-made-repaired-and-noticed"
+            >Read on Substack</a
+          >
+        </div>
+
         <!-- Mailchimp
         <div id="mc_embed_signup">
           <form
@@ -74,13 +88,13 @@
         </div> -->
 
         <!-- <div id="substack-feed-embed" class="martop"></div> -->
-        <a
+        <!-- <a
           href="https://bridgestudiobridgeto.substack.com/"
           target="_blank"
           class="button primary martop"
         >
           <div>Check it Out Here</div>
-        </a>
+        </a> -->
         <iframe
           src="https://bridgestudiobridgeto.substack.com/embed"
           id="substack"
@@ -98,6 +112,15 @@
 import * as state from '~/assets/state'
 const i18n = useI18n()
 const locale = i18n.locale
+
+useHead({
+  script: [
+    {
+      src: 'https://substack.com/embedjs/embed.js',
+      async: true,
+    },
+  ],
+})
 
 // useHead({
 //   script: [
@@ -170,6 +193,7 @@ const locale = i18n.locale
 <style lang="scss">
 .newsletter.textcolumn {
   max-width: 600px;
+  padding: 0;
 }
 
 // #substack {
@@ -231,4 +255,29 @@ const locale = i18n.locale
     }
   }
 }*/
+
+#substack {
+  margin-top: -4.5rem;
+  position: relative;
+  z-index: 3;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+
+  @media (max-width: 768px) {
+    margin-top: -7rem;
+  }
+}
+.substack-post-embed {
+  position: relative;
+  z-index: 2;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100% !important;
+  border-right: 1px solid white;
+
+  & > * {
+    width: 100%;
+  }
+}
 </style>

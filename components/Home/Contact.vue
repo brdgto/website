@@ -9,9 +9,12 @@
     ></div>
 
     <div class="contentcolumn martopbig padbotbig">
-      <div class="p flexcolumn gapbig flexcenter">
+      <div
+        class="p flex gapbig flexcenter"
+        style="align-items: stretch"
+      >
         <a
-          class="button"
+          class="button marnone"
           href="mailto:bridgetoresidency@gmail.com"
           target="_blank"
         >
@@ -24,7 +27,7 @@
 
         <Social
           style="
-            transform: scale(1.5);
+            transform: scale(1.33);
             --gap: 1em;
             --social-bg: var(--base-d);
           "

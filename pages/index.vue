@@ -4,18 +4,19 @@
     <!-- <HomeOpenCallBanner /> -->
     <!-- <Kickstarter /> -->
     <HomeAbout />
-    <HomeObservatory />
-    <HomeSpace />
+    <!-- <HomeObservatory /> -->
+    <!-- <HomeSpace /> -->
+    <HomeWhatWeDo />
+    <HomeResidentsAndProjects />
     <!-- <HomeOurInitiatives /> -->
-    <!-- <HomeInsta /> -->
     <HomeApply />
-    <HomeResidents />
     <!-- <HomeStudioMembers /> -->
-    <HomeFAQ />
+    <!-- <HomeFAQ /> -->
     <HomePartners />
     <!-- <HomeWorkWithUs /> -->
-    <HomeMailingList />
+    <HomeMailingList :key="locale" />
     <!-- <HomeTCU /> -->
+    <HomeInsta />
     <HomeContact />
     <HomeFooter />
   </main>

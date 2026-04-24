@@ -8,55 +8,10 @@
     ></div>
 
     <div class="contentcolumn full">
-      <h1>Past Residents</h1>
+      <!-- <h1>Past Projects</h1>
 
-      <!-- <p>
-        <template v-if="locale === 'ja'">
-          2024年3月より随時アーティストインレジデンスの応募受付中
-        </template>
-        <template v-else>
-          Now accepting applications; space available from
-          March 2024.
-        </template>
-      </p> -->
-
-      <div class="row">
-        <!--   <div v-if="residents.current?.length">
-          <h3>Current</h3>
-
-          <div class="grid">
-            <div
-              class="resident"
-              v-for="r in residents.current"
-              :key="r.id + r.name + locale"
-            >
-              <div
-                class="img"
-                v-lazy:background-image="
-                  `/img/people/${r.id}.jpg`
-                "
-                :alt="`Photo of ${r.name}`"
-              ></div>
-              <h2 class="name">{{ r.name }}</h2>
-              <div class="description">
-                {{
-                  locale === 'ja'
-                    ? r.descriptionJa
-                    : r.description
-                }}
-                <span class="website" v-if="r.url">
-                  <a :href="r.url" target="_blank"
-                    >Website</a
-                  >
-                </span>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
+      <div class="row padbotbig">
         <div v-if="residents.upcoming?.length">
-          <!-- <h3>Upcoming</h3> -->
-
           <div class="flex">
             <HomeResident
               v-for="r in residents.upcoming || []"
@@ -67,8 +22,30 @@
         </div>
 
         <div v-if="residents.past?.length">
-          <!-- <h3>Past</h3> -->
+          <div class="flex">
+            <HomeResident
+              v-for="r in residents.past || []"
+              :key="r.id + r.name + locale"
+              :r="r"
+            />
+          </div>
+        </div>
+      </div> -->
 
+      <h1>Past Residents</h1>
+
+      <div class="row">
+        <div v-if="residents.upcoming?.length">
+          <div class="flex">
+            <HomeResident
+              v-for="r in residents.upcoming || []"
+              :key="r.id + r.name + locale"
+              :r="r"
+            />
+          </div>
+        </div>
+
+        <div v-if="residents.past?.length">
           <div class="flex">
             <HomeResident
               v-for="r in residents.past || []"

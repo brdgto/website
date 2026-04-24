@@ -3,23 +3,65 @@
     <div class="light v3"></div>
 
     <div class="contentcolumn">
-      <h1>Apply</h1>
+      <h1>Get Involved</h1>
 
       <div class="columns padtop">
-        <div class="residency span2 textcolumn">
+        <div class="span2 textcolumn el">
+          <h2 v-if="locale === 'ja'">
+            <img
+              src="/img/icons/event.svg"
+              class="applyIcon"
+            />
+            スペースレンタル
+          </h2>
+          <h2 v-else>
+            <img
+              src="/img/icons/event.svg"
+              class="applyIcon"
+            />
+            Rent the Space
+          </h2>
+
+          <div class="marbotsmall">
+            <img
+              class="sectionImage"
+              src="/img/2024/20231202_kyoto_209_4000.jpg"
+            />
+          </div>
+
+          <div>
+            <template v-if="locale === 'ja'">
+              <div>
+                Bridge
+                Studioを、集まりや展覧会、短期的なプロジェクトの場としてご利用いただけます。用途に応じて柔軟に対応可能です。
+              </div>
+            </template>
+            <template v-else>
+              <div>
+                Use Bridge Studio as a site for your own
+                gatherings, exhibitions, or temporary
+                projects. The space is available for
+                short-term use, with flexibility for
+                different formats.
+              </div>
+            </template>
+          </div>
+        </div>
+
+        <div class="el span2 textcolumn">
           <h2 v-if="locale === 'ja'">
             <img
               src="/img/icons/residency.svg"
               class="applyIcon"
             />
-            レジデンス
+            滞在制作
           </h2>
           <h2 v-else>
             <img
               src="/img/icons/residency.svg"
               class="applyIcon"
             />
-            Residency
+            Become a Resident
           </h2>
 
           <div
@@ -73,351 +115,80 @@
 
           <div>
             <template v-if="locale === 'ja'">
-              <!-- <div>
-                Bridge to
-                Kyotoは、「都市」をテーマに分野・文化・国籍を超えた活動を行うための場所です。海外を中心に、国内外から1〜6ヶ月の単位で「アーバニスト・イン・レジデンス」として実践者を受け入れ、地元のコミュニティや活動とつなぐ手助けをします。応募は、年間を通して随時可能です。 
-
-
-
-                年間を通して随時アーティスト・イン・レジデンス滞在制作希望者を募集しています。費用や待遇についてはお問合せください。
-              </div>
-              <br />
-              対象者
-              <ul>
-                <li>
-                  アート、デザイン、建築、工芸などに関わる方、研究者、リサーチャー、文筆家など
-                </li>
-                <li>
-                  英語、あるいは日本語での日常会話ができる方
-                </li>
-                <li>
-                  生活費、家賃、旅費などを自己負担できる方
-                </li>
-                <li>
-                  レジデンス期間中に、最低1回はワークショップ、イベント、展示などを自発的に開催できる方
-                </li>
-                <li>
-                  年齢、宗教、ジェンダーなどに関わらず誰でもご応募頂けます。
-                </li>
-              </ul>
-
-              <div>
-                こちらが提供するもの
-                <ul>
-                  <li>滞在場所、オフィススペース（家具、Wifi付き）</li>
-                  <li>
-                    キッチン、バルコニー、庭、お風呂やリビングなどのコモンスペース（共用）
-                  </li>
-                  <li>
-                    イベントやワークショップ開催に際しての場所の提供と最低限のサポート
-                  </li>
-                  <li>
-                    滞在者の活動内容のプロモーションとネットワーキングのお手伝い
-                  </li>
-                  <li>海外のアーバニストの紹介</li>
-                </ul>
-              </div>
-
-             -->
-              2026年以降、レジデンスの受入は招待制および紹介制に移行します。過去にBridge
-              Studioと直接関わりのあった方、または信頼する関係者からの紹介を通じた方を対象とします。
-              方針の変更となることは承知しておりますが、今後も活動を持続可能なかたちで続け、地域との関係性をより丁寧に育てていくための判断です。ご理解いただけましたら幸いです。2026年の募集に関しては、詳細が決定次第告知を致します。
+              レジデンシープログラムでは、京都の都市環境に身を浸しながらリサーチや実践を深める時間を過ごすことができます。主に都市・建築・ものづくり・デザイン分野で活動するアーティスト、デザイナー、リサーチャーを広く歓迎します。現在は招待および紹介制で実施をしていますが、日本人の方はお気軽にお問い合わせください。
             </template>
 
             <template v-else>
-              From 2026 onward, the residency programme will
-              move to an invitation- and referral-based
-              model. We will host people who have previously
-              engaged with Bridge Studio, as well as those
-              introduced through trusted collaborators. This
-              change reflects our intention to keep the
-              programme sustainable and closely connected to
-              its local context. Details of the 2026
-              residency programme will be shared once ready.
-
-              <!--             
-              We accept residents from Japan and abroad on a
-              1-6 month basis, and help them connect with
-              local communities and activities. Applications
-              are accepted throughout the year.
-
-              <br />
-              <h4>Who can apply?</h4>
-              <ul>
-                <li>
-                  Creatives in the fields of art, design,
-                  architecture, crafts, research, writing,
-                  games, etc.
-                </li>
-                <li>
-                  Those who can speak English or Japanese in
-                  daily conversation.
-                </li>
-                <li>
-                  Those who can pay for their own living
-                  expenses, rent, travel expenses, etc.
-                </li>
-                <li>
-                  Everyone is welcome to apply regardless of
-                  age, religion, gender, etc.
-                </li>
-              </ul>
-
-              We ask residents to hold at least one
-              workshop, event, exhibition, etc. during their
-              residency.
-
-              <div>
-                <h4>What we offer</h4>
-                <ul>
-                  <li>
-                    Private room (furnished, wifi included)
-                  </li>
-                  <li>A private workspace</li>
-                  <li>
-                    Common spaces (kitchen, balcony, garden,
-                    bathroom and living room)
-                  </li>
-                  <li>
-                    Venue and support for organizing events
-                    and workshops
-                  </li>
-                  <li>
-                    Promotion of your activities and
-                    networking assistance
-                  </li>
-                  <li>Basic translation support</li>
-                </ul>
+              Join our residency program and spend time
+              developing your practice within Kyoto's urban
+              landscape. We welcome artists, designers, and
+              researchers working across disciplines.
+              <div class="highlight martopsmall">
+                Currently by invitation and referral only,
+                so please note that we may not be able to
+                respond to all individual inquiries at this
+                time.
               </div>
-              <div>
-                <h4 class="martopsmall">
-                  What we expect from you
-                </h4>
-                <ul>
-                  <li>
-                    We don’t ask for any specific artistic
-                    output during your stay — your residency
-                    could be research-based or
-                    production-based.
-                  </li>
-                  <li>
-                    At the end of your stay, we expect you
-                    to organize either an exhibition, a
-                    talk, a workshop, etc. to showcase what
-                    you’ve worked on during your stay.
-                  </li>
-                  <li>Basic translation support</li>
-                </ul>
-              </div>
-
-              <div>
-                <h4>What we expect from you</h4>
-                <div class="marleft">
-                  <div>
-                    We don't ask for any specific artistic
-                    output during your stay — your residency
-                    could be research-based or
-                    production-based, it's up to you.
-                    However, at the end of your stay, we
-                    expect you to organize an exhibition, a
-                    talk, a workshop, etc. to showcase what
-                    you've worked on during your stay. It
-                    doesn't have to be highly produced, but
-                    we hope to have you share your insights
-                    and perspectives with the local
-                    community.
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <h4>Availability</h4>
-                <div class="marleft">
-                  <div>
-                    We're currently open for residencies
-                    starting from May 2025 or beyond.
-                  </div>
-                  <div class="small martopsmall">
-                    <span class="fade">
-                      Please be aware that we're a small
-                      team receiving a large volume of
-                      applications. We will only be able to
-                      respond to accepted applicants.
-                    </span>
-                    <span class="highlight">
-                      If you need more detailed information
-                      about the residency, you can find it
-                      by clicking the apply link below.
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-<div>
-                <h4>Rates</h4>
-                <div class="marleft">
-                  <div>
-                    <b>Monthly: USD $1200 per month</b>
-                  </div>
-                  <div>
-                    <b>Daily: USD $50 per day</b>
-                  </div>
-                  <ul class="sub padleftsmall martopsmall">
-                    <li>
-                      This price includes taxes, utilities,
-                      common expenses, and operating costs.
-                    </li>
-                    <li>
-                      Unlimited use of the shared studio and
-                      3 days' use of the ground floor for an
-                      exhibition or event are included.
-                    </li>
-
-                    <li>
-                      All money from the residency goes into
-                      the renovation and preservation of
-                      this historical building.
-                    </li>
-                    <li>
-                      If you are from a less affluent part
-                      of the world and cannot afford the
-                      residency, let's talk. We'd love to
-                      help as much as we can to give you an
-                      equal opportunity.
-                    </li>
-                    <li>
-                      Please contact us if you would like to
-                      stay for a period other than 1-6
-                      months.
-                    </li>
-                  </ul>
-                </div>
-              </div>-->
             </template>
           </div>
-
-          <!-- <a
-            href="https://forms.gle/Aexb7oEZFzB5s1JN7"
-            target="_blank"
-            class="button martop"
-          >
-            <div class="secondary">Apply for Residency</div>
-          </a> -->
         </div>
 
-        <div class="spaceRental span2 textcolumn">
+        <div class="el span2 textcolumn">
           <h2 v-if="locale === 'ja'">
             <img
-              src="/img/icons/event.svg"
+              src="/img/icons/fellowship.svg"
               class="applyIcon"
             />
-            ギャラリー、イベント
+            コラボレーション
           </h2>
           <h2 v-else>
             <img
-              src="/img/icons/event.svg"
+              src="/img/icons/fellowship.svg"
               class="applyIcon"
             />
-            Space Rental
+            Collaboration
           </h2>
 
           <div class="marbotsmall">
             <img
               class="sectionImage"
-              src="/img/2024/20231202_kyoto_209_4000.jpg"
+              src="/img/2024_2/2.jpg"
             />
           </div>
 
           <div>
             <template v-if="locale === 'ja'">
               <div>
-                建築、デザイン、ものづくりなどをテーマにしたイベント、ワークショップ、展示などの企画を常時応募しています。
+                個人、団体、機関とのコラボレーションを歓迎しています。アイデアや企画、関心の共有などがあれば、ぜひご連絡ください。
               </div>
-              <div>
-                <ul>
-                  <li>
-                    アート、デザイン、建築、工芸、ものづくり関係ほか、大学関係の企画など、幅広く募集を受け付けています。
-                  </li>
-                  <li>
-                    企画運営、スタッフ、参加者管理、イベントページ作成や参加者募集は基本的に持ち込みとさせて頂きます。
-                  </li>
-                  <!-- <li>￥20,000 / 日</li> -->
-                </ul>
-              </div>
-
-              <!-- <div>
-                こちらから提供するもの
-                <ul>
-                  <li>
-                    プロジェクター、スピーカー、文房具やホワイトボードなど基本的なツール類の貸し出し
-                  </li>
-                  <li>イベント拡散のサポート</li>
-                  <li>
-                    海外の方も参加する場合、英語でのサポートも可能（別料金）
-                  </li>
-                </ul>
-              </div> -->
             </template>
             <template v-else>
               <div>
-                We are open for proposals for events,
-                workshops, exhibitions, and more on the
-                themes of architecture, design, and
-                creation.
+                We are open to collaborations with
+                individuals, organizations, and
+                institutions. If you have an idea, proposal,
+                or shared interest, we'd love to hear from
+                you.
               </div>
-              <div class="martopsmall">
-                <!-- <ul>
-                  <li>
-                    We can accept a wide range of applications, including art,
-                    design, architecture, crafts, manufacturing, and
-                    university-related projects.
-                  </li>
-                  <li>
-                    We can not provide assistance in the planning, management,
-                    staff, event page creation, or marketing of the event.
-                  </li>
-                </ul> -->
-              </div>
-
-              <div>
-                <h4>What we provide:</h4>
-                <ul>
-                  <li>
-                    Rental of basic tools such as
-                    projectors, speakers, stationery and
-                    whiteboards
-                  </li>
-                  <li>
-                    Basic event publicity on our social
-                    channels
-                  </li>
-                  <li>
-                    English language support (separate fee)
-                  </li>
-                </ul>
-              </div>
-
-              <!-- <h4>Cost:</h4>
-              <div class="marleft">
-                <b>USD $150 per day</b>
-                <div class="sub">
-                  This price includes taxes.
-                </div>
-              </div> -->
             </template>
           </div>
-
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqA1OG-trCm6Cc4MHJoTOL8muxf58ICO-CRMMs6yjdu5n-aw/viewform"
-            target="_blank"
-            class="button martop"
-          >
-            <div class="secondary">
-              Apply for Space Rental
-            </div>
-          </a>
         </div>
       </div>
+
+      <a
+        href="mailto:bridgetoresidency@gmail.com"
+        target="_blank"
+        class="button martopbig"
+        style="
+          max-width: 400px;
+          margin-left: auto;
+          margin-right: auto;
+        "
+      >
+        <div class="secondary">
+          Contact Us for Inquiries
+        </div>
+      </a>
     </div>
   </section>
 </template>
@@ -758,8 +529,7 @@ h1 {
   }
 }
 
-.residency,
-.studio {
+.el {
   @media (max-width: 768px) {
     padding: 0;
   }

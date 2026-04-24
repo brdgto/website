@@ -115,6 +115,13 @@ function updateScroll() {
 //   }
 // }
 
+watch(
+  () => useI18n().locale,
+  () => {
+    window.location.reload()
+  },
+)
+
 onMounted(() => {
   if (state.dev.value) return
   // @ts-ignore
