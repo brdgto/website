@@ -8,29 +8,24 @@
     ></div>
 
     <div class="contentcolumn full">
-      <!-- <h1>Past Projects</h1>
+      <h1 style="margin-bottom: 1.5rem">
+        Past Projects
+        <span style="font-size: 1rem; opacity: 0.5">
+          (Selected)
+        </span>
+      </h1>
 
       <div class="row padbotbig">
-        <div v-if="residents.upcoming?.length">
+        <div v-if="projects.length">
           <div class="flex">
-            <HomeResident
-              v-for="r in residents.upcoming || []"
-              :key="r.id + r.name + locale"
+            <HomeProject
+              v-for="r in projects || []"
+              :key="r.id + locale"
               :r="r"
             />
           </div>
         </div>
-
-        <div v-if="residents.past?.length">
-          <div class="flex">
-            <HomeResident
-              v-for="r in residents.past || []"
-              :key="r.id + r.name + locale"
-              :r="r"
-            />
-          </div>
-        </div>
-      </div> -->
+      </div>
 
       <h1>Past Residents</h1>
 
@@ -65,6 +60,7 @@ const i18n = useI18n()
 const locale = i18n.locale
 
 import { residents } from '~/assets/people'
+import { projects } from '~/assets/projects'
 </script>
 
 <style lang="scss" scoped>

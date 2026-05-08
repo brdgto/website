@@ -7,3 +7,11 @@ interface ResidentData {
   showProject?: boolean
   projectAlbumUrl?: string
 }
+
+interface ProjectData {
+  id: string
+  name: string
+  description: string
+  descriptionJa: string
+  url?: string
+}
