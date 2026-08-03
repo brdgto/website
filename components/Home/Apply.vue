@@ -35,6 +35,13 @@
                 Bridge
                 Studioを、集まりや展覧会、短期的なプロジェクトの場としてご利用いただけます。用途に応じて柔軟に対応可能です。
               </div>
+              <a
+                href="https://periwinkle-antimatter-136.notion.site/Space-rental-Bridge-Studio-JP-28c7d996b03580e3beb3f2d826a72ba9"
+                target="_blank"
+                class="button martop"
+              >
+                <div class="secondary">詳しくはこちら</div>
+              </a>
             </template>
             <template v-else>
               <div>
@@ -44,6 +51,13 @@
                 short-term use, with flexibility for
                 different formats.
               </div>
+              <a
+                href="https://periwinkle-antimatter-136.notion.site/Space-rental-Bridge-Studio-proposition-07-2025-2247d996b035808994e8c2ee6fcaebab"
+                target="_blank"
+                class="button martop"
+              >
+                <div class="secondary">Learn More</div>
+              </a>
             </template>
           </div>
         </div>
